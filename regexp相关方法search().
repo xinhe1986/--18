@@ -1,0 +1,6 @@
+			// 2月18日 使用search()方法，类似indexOf();
+			var str = "abc123def4567";
+			var result1 = str.search(/\d+/g);
+			var result2 = str.search(/m/g);
+			console.log(result1);
+			console.log(result2);
